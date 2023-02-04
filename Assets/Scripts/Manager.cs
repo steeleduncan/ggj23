@@ -12,15 +12,9 @@ public class Manager : MonoBehaviour {
 		}
 		_roots.Add(root);
 		root.manager = this;
-
-		int count = _roots.Count;
-		print($"Got {count} roots");
-
-		int frameCount = rootFrames.Length;
-		print($"Got {frameCount} roots");
 	}
 
     void Start() {
-		print("Booting manager");
+		
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Root : MonoBehaviour {
 	public Manager manager;
+	public District district;
 	private SpriteRenderer _spriteRenderer;
 
 	private Vector3 _originalScale;
@@ -27,13 +28,7 @@ public class Root : MonoBehaviour {
 		_spriteRenderer.sprite = manager.rootFrames[_stage];
 	}
 
-	void OnPointerDown(PointerEventData eventData) {
-		Debug.Log("pointer down");
-	}
-	
 	void OnMouseDown() {
-		Debug.Log("mouse down");
-
 		if (_stage >= 4) {
 			return;
 		}
@@ -43,11 +38,10 @@ public class Root : MonoBehaviour {
 	}
 
 	void OnMouseEnter() {
-		float scale = 1.2f;
-		transform.localScale = new Vector3(_originalScale.x * scale, _originalScale.y * scale, _originalScale.z);
+		district.RegisterMouseIn();
 	}
 
 	void OnMouseExit() {
-		transform.localScale = _originalScale;
+		district.RegisterMouseOut();
 	}
 }
