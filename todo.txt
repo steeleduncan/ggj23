@@ -1,21 +1,47 @@
-- to start
-	- draw initial building
-	- hide all roots
-	- add a clickable house (single click)
-	- show a story chunk
-	- unhide first roots
+- ideally mark all the images to check the connections, and mark default
+
 - exporting 
 	- scale properly to the viewport in any case and blackbar
 	- how to do a .exe export?
 	- how to do a web export
 
+- notes for data
+	- I reorged the objects rel to each other
+	- I added ending
+	- I added house
+	- flexible number of root frames
+
+- art manifest
+	- 1920 x 1080 background
+	- the time counter at the top
+	- 5 root frames
+	- house
+		- greyed
+		- normal
+	- districts (4 each)
+		- greyed
+		- normal
+	- vignettes
+		- district a (4? or 1?)
+		- district b (4? or 1?)
+		- district c (4? or 1?)
+		- district d (4? or 1?)
+		- beginning
+		- ending
+			- bad event
+			- 4 district endings
+			- generic ending
+
 - sunday
 	- check in with max
-		- show how to put the texts in their slots
+		- agree on what a,b,c,d mean
+		- show how to put the texts in their slots (https://github.com/steeleduncan/ggj23/tree/main/Assets/Text)
 		- that he isn't thinking of multiple paragraphs per event
 		- has any idea for a name?
 	- check in with lidia
+		- 5 roots ok? If not, need to go back to Max and reduce 40 to 36 to preserve design
 		- sizes of images
+		- the image manifest
 	- sound/fmod
 	- 414 x 300, make a bit bigger, about 400 high? can we get an initial image from Lio?
 	- how does everyone want to be credited?

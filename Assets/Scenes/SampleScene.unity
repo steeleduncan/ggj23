@@ -208,7 +208,7 @@ Transform:
   - {fileID: 581235689}
   - {fileID: 641493724}
   m_Father: {fileID: 1059374627}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &61025131
 MonoBehaviour:
@@ -325,6 +325,106 @@ MonoBehaviour:
   _vignetteSprite: {fileID: 21300000, guid: 567dd9617ddaec34b9dc58c08a399a29, type: 3}
   _vignetteText: {fileID: 4900000, guid: 089a9cb1ca207184d8b3ee6dccaa8dbb, type: 3}
   nextRoot: {fileID: 1178598233}
+--- !u!1 &75733380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 75733382}
+  - component: {fileID: 75733381}
+  - component: {fileID: 75733383}
+  m_Layer: 0
+  m_Name: house
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &75733381
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75733380}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: ec1f24dc6a49495488e01f948cf5cec3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3, y: 4}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &75733382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75733380}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.373311, y: 1.5796858, z: 0.17559046}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1059374627}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &75733383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75733380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aabd50e72fb7414a9d1c6229074c056, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deselectedSprite: {fileID: 21300000, guid: ec1f24dc6a49495488e01f948cf5cec3, type: 3}
+  selectedSprite: {fileID: 21300000, guid: 69cf36359cb4fe24fa25da77dce41f31, type: 3}
+  manager: {fileID: 1269032791}
 --- !u!1 &159353320
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,7 +437,7 @@ GameObject:
   - component: {fileID: 159353321}
   - component: {fileID: 159353323}
   m_Layer: 0
-  m_Name: district-b-colour
+  m_Name: district-b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -412,7 +512,7 @@ Transform:
   - {fileID: 636027794}
   - {fileID: 473292397}
   m_Father: {fileID: 1059374627}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &159353323
 MonoBehaviour:
@@ -545,7 +645,7 @@ GameObject:
   - component: {fileID: 350738134}
   - component: {fileID: 350738136}
   m_Layer: 0
-  m_Name: district-d-colour
+  m_Name: district-d
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -620,7 +720,7 @@ Transform:
   - {fileID: 1178598235}
   - {fileID: 654928904}
   m_Father: {fileID: 1059374627}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &350738136
 MonoBehaviour:
@@ -1994,7 +2094,7 @@ Transform:
   m_Children:
   - {fileID: 505988235}
   m_Father: {fileID: 1059374627}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &897332913
 GameObject:
@@ -2075,7 +2175,7 @@ Transform:
   m_GameObject: {fileID: 897332913}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.4899998, y: 0.90999985, z: -0.099999994}
-  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 159353322}
@@ -2228,6 +2328,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 75733382}
   - {fileID: 61025130}
   - {fileID: 878646043}
   - {fileID: 1298572532}
@@ -2450,7 +2551,14 @@ MonoBehaviour:
   - {fileID: 159353323}
   - {fileID: 1464870576}
   - {fileID: 350738136}
+  initialRoots:
+  - {fileID: 669615357}
+  - {fileID: 897332913}
+  - {fileID: 306423073}
+  - {fileID: 422257838}
   timerNode: {fileID: 878646041}
+  startingText: {fileID: 4900000, guid: e4601b072e2898b4b9deec93a258662a, type: 3}
+  startingSprite: {fileID: 21300000, guid: c601430d44648f443a39bc7570d5be0c, type: 3}
   genericEndingText: {fileID: 4900000, guid: 91151b36c2c45884796553d1ae813b65, type: 3}
   genericEndingSprite: {fileID: 21300000, guid: 9afb6eef0deee9c4eb2107ae8d4a9459, type: 3}
   badEventText: {fileID: 4900000, guid: 49f188a7404b2bf40aa2f529278bc01d, type: 3}
@@ -2485,7 +2593,7 @@ GameObject:
   - component: {fileID: 1298572531}
   - component: {fileID: 1298572533}
   m_Layer: 0
-  m_Name: district-a-colour
+  m_Name: district-a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2560,7 +2668,7 @@ Transform:
   - {fileID: 1469493939}
   - {fileID: 1721934712}
   m_Father: {fileID: 1059374627}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1298572533
 MonoBehaviour:
@@ -2726,7 +2834,7 @@ GameObject:
   - component: {fileID: 1464870574}
   - component: {fileID: 1464870576}
   m_Layer: 0
-  m_Name: district-c-colour
+  m_Name: district-c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2801,7 +2909,7 @@ Transform:
   - {fileID: 1890643264}
   - {fileID: 1018164462}
   m_Father: {fileID: 1059374627}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1464870576
 MonoBehaviour:
@@ -3341,7 +3449,7 @@ GameObject:
   - component: {fileID: 2052571478}
   - component: {fileID: 2052571477}
   m_Layer: 0
-  m_Name: temp-background
+  m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3412,5 +3520,5 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1059374627}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -9,8 +9,12 @@ public class Manager : MonoBehaviour {
 	public TextMeshProUGUI daysLeftLabel;
 	public GameObject textBoxBacking;
 	public District[] districts;
+	public GameObject[] initialRoots;
 
 	public GameObject timerNode;
+
+	public TextAsset startingText;
+	public Sprite startingSprite;
 
 	public TextAsset genericEndingText;
 	public Sprite genericEndingSprite;
@@ -31,6 +35,7 @@ public class Manager : MonoBehaviour {
 	private List<Sprite> _endingSprites;
 	private List<string> _endingStrings;
 
+	// The roots should have all done Awake by this point
     void Start() {
 		_showingPopover = false;
 		_allowInteractivity = true;
@@ -40,15 +45,6 @@ public class Manager : MonoBehaviour {
 
 		textBoxBacking.SetActive(false);
     }
-
-	private List<Root> _roots;
-	public void RegisterRoot(Root root) {
-		if (_roots == null) {
-			_roots = new List<Root>();
-		}
-		_roots.Add(root);
-		root.manager = this;
-	}
 
 	void _updateLabel() {
 		daysLeftLabel.SetText($"{_weeksLeft} Weeks Left");
@@ -97,6 +93,16 @@ public class Manager : MonoBehaviour {
 		if (_weeksLeft == 0) {
 			_startEndEvents();
 		}
+	}
+
+	public void _startGame() {
+		foreach (GameObject root in initialRoots) {
+			root.SetActive(true);
+		}
+	}
+
+	public void DidClickHouse() {
+		ShowTextAndSprite(startingText.text, startingSprite, _startGame);
 	}
 
 	public void DismissPopover() {

@@ -15,7 +15,8 @@ public class Root : MonoBehaviour {
 	private string _vignetteString;
 	private BoxCollider2D _collider;
 
-	void Start() {
+	// NB we use awake for the roots as many get deactivated before they start, and this breaks functionality
+	void Awake() {
 		_originalScale = transform.localScale;
 
 		// Add box collider so the mouse enter/exit work
@@ -27,22 +28,24 @@ public class Root : MonoBehaviour {
 		_alignState();
 
 		if (nextRoot != null) {
-			// NB once you deactivate the next root, Start() will not be called
-			nextRoot.DisableRootChain();
+			_setRootActive(false);
 		}
+
+		// disable me to start
+		gameObject.SetActive(false);
 	}
 
     void _setRootActive(bool active) {
 		gameObject.SetActive(active);
 	}
 
-
+	/*
     public void DisableRootChain() {
-		_setRootActive(false);
 		if (nextRoot != null) {
 			nextRoot.DisableRootChain();
 		}
 	}
+	*/
 
     void Update() {
         
