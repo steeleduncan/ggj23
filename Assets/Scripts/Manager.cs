@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Manager : MonoBehaviour {
-	public GameObject backgroundSprite;
+	public Sprite[] rootFrames;
 
 	private List<Root> _roots;
 	public void RegisterRoot(Root root) {
@@ -15,6 +15,9 @@ public class Manager : MonoBehaviour {
 
 		int count = _roots.Count;
 		print($"Got {count} roots");
+
+		int frameCount = rootFrames.Length;
+		print($"Got {frameCount} roots");
 	}
 
     void Start() {
