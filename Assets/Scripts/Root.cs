@@ -8,22 +8,31 @@ public class Root : MonoBehaviour {
 	private SpriteRenderer _spriteRenderer;
 	public Sprite _vignetteSprite;
 	public TextAsset _vignetteText;
+	public Root nextRoot;
 
 	private Vector3 _originalScale;
 	private int _stage = 0;
 	private string _vignetteString;
-
+	private BoxCollider2D _collider;
 
 	void Start() {
 		_originalScale = transform.localScale;
 
 		// Add box collider so the mouse enter/exit work
-		gameObject.AddComponent<BoxCollider2D>();
+		_collider = gameObject.AddComponent<BoxCollider2D>();
 		_spriteRenderer = GetComponent<SpriteRenderer>();
 
 		_vignetteString = _vignetteText.text;
 
 		_alignState();
+
+		if (nextRoot != null) {
+			nextRoot.SetRootActive(false);
+		}
+	}
+
+    public void SetRootActive(bool active) {
+		gameObject.SetActive(active);
 	}
 
     void Update() {
@@ -44,6 +53,11 @@ public class Root : MonoBehaviour {
 		if (_stage == 4) {
 			manager.ShowTextAndSprite(_vignetteString, _vignetteSprite);
 			manager.DidAdvanceDay();
+
+			_collider.enabled = false;
+			if (nextRoot != null) {
+				nextRoot.SetRootActive(true);
+			}
 		} else if (_stage >= 4) {
 			// do nothing, it should be inactive
 		} else {
@@ -54,14 +68,23 @@ public class Root : MonoBehaviour {
 	}
 
 	void OnMouseDown() {
+		if (!manager.ShouldAllowInteractivity()) {
+			return;
+		}
 		_advanceDay();
 	}
 
 	void OnMouseEnter() {
+		if (!manager.ShouldAllowInteractivity()) {
+			return;
+		}
 		district.RegisterMouseIn();
 	}
 
 	void OnMouseExit() {
+		if (!manager.ShouldAllowInteractivity()) {
+			return;
+		}
 		district.RegisterMouseOut();
 	}
 }

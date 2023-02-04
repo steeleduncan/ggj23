@@ -12,6 +12,7 @@ public class Manager : MonoBehaviour {
 	public SpriteRenderer vignetteSprite;
 
 	int _daysLeft = 40;
+	bool _showingPopover = false;
 
     void Start() {
 		_updateLabel();
@@ -33,7 +34,13 @@ public class Manager : MonoBehaviour {
 	}
 
 	public void DismissPopover() {
+		_showingPopover = false;
 		textBoxBacking.SetActive(false);
+	}
+
+	// ie interactivity other than the main one
+	public bool ShouldAllowInteractivity() {
+		return !_showingPopover;
 	}
 
 	public void DidAdvanceDay() {
@@ -42,6 +49,7 @@ public class Manager : MonoBehaviour {
 	}
 
 	public void ShowTextAndSprite(string text, Sprite picture) {
+		_showingPopover = true;
 		textBoxBacking.SetActive(true);
 		vignetteText.SetText(text);
 		vignetteSprite.sprite = picture;

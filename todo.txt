@@ -1,9 +1,8 @@
+- no interactivity when showing the box
+- turn off the next root completely
+- add deferred action to the show box call
+- turn back on the next root
 - background sprite behind the text at the top 
-
-- textbox
-	- add an option to the manager to display a text box on demand
-	- have a picture slot
-	- have a text slot
 
 - roots
 	- need to grey roots when not available

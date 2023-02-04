@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &61025129
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -324,6 +324,7 @@ MonoBehaviour:
   district: {fileID: 350738136}
   _vignetteSprite: {fileID: 21300000, guid: 567dd9617ddaec34b9dc58c08a399a29, type: 3}
   _vignetteText: {fileID: 4900000, guid: 089a9cb1ca207184d8b3ee6dccaa8dbb, type: 3}
+  nextRoot: {fileID: 0}
 --- !u!1 &159353320
 GameObject:
   m_ObjectHideFlags: 0
@@ -524,6 +525,7 @@ MonoBehaviour:
   district: {fileID: 1464870576}
   _vignetteSprite: {fileID: 21300000, guid: af591392108fee7418508b23cd0a1228, type: 3}
   _vignetteText: {fileID: 4900000, guid: 0499383df123ec14a940bf165aa3d59e, type: 3}
+  nextRoot: {fileID: 1761292059}
 --- !u!1 &350738133
 GameObject:
   m_ObjectHideFlags: 0
@@ -724,6 +726,7 @@ MonoBehaviour:
   district: {fileID: 350738136}
   _vignetteSprite: {fileID: 21300000, guid: 06f215d96370173468f154a8bf0f387b, type: 3}
   _vignetteText: {fileID: 4900000, guid: 9c70c6a5fe8a8f745a3c4c67203bf243, type: 3}
+  nextRoot: {fileID: 72117082}
 --- !u!1 &505988231
 GameObject:
   m_ObjectHideFlags: 0
@@ -1485,6 +1488,7 @@ MonoBehaviour:
   district: {fileID: 1298572533}
   _vignetteSprite: {fileID: 21300000, guid: 29e9a518190f7f547ba4cc692d5f3f6a, type: 3}
   _vignetteText: {fileID: 4900000, guid: cb90ce9191656cb4c8d75363367cb934, type: 3}
+  nextRoot: {fileID: 692552561}
 --- !u!1 &692552558
 GameObject:
   m_ObjectHideFlags: 0
@@ -1586,6 +1590,7 @@ MonoBehaviour:
   district: {fileID: 1298572533}
   _vignetteSprite: {fileID: 21300000, guid: bd967d734f679e949894c53ad54624d6, type: 3}
   _vignetteText: {fileID: 4900000, guid: 6d9c3ea290fbcf2468cbc22b0defa4ca, type: 3}
+  nextRoot: {fileID: 0}
 --- !u!1 &897332913
 GameObject:
   m_ObjectHideFlags: 0
@@ -1687,6 +1692,7 @@ MonoBehaviour:
   district: {fileID: 159353323}
   _vignetteSprite: {fileID: 21300000, guid: d3e6e5fc551eebf4fa852fa222ff83e5, type: 3}
   _vignetteText: {fileID: 4900000, guid: 287a9c28479f3874c817d5468c3b61e0, type: 3}
+  nextRoot: {fileID: 1966240496}
 --- !u!1 &1254503647
 GameObject:
   m_ObjectHideFlags: 0
@@ -2242,6 +2248,7 @@ MonoBehaviour:
   district: {fileID: 1464870576}
   _vignetteSprite: {fileID: 21300000, guid: 0bf245695b2b78f4f8d352460775b9b0, type: 3}
   _vignetteText: {fileID: 4900000, guid: 9409f83577c84334f81d97524b442b6c, type: 3}
+  nextRoot: {fileID: 0}
 --- !u!1 &1966240493
 GameObject:
   m_ObjectHideFlags: 0
@@ -2343,6 +2350,7 @@ MonoBehaviour:
   district: {fileID: 159353323}
   _vignetteSprite: {fileID: 21300000, guid: 8f29925b14fcab74daa4e09e5b976dcc, type: 3}
   _vignetteText: {fileID: 4900000, guid: e0cbc80bfff0f5e468161bd2ac304e32, type: 3}
+  nextRoot: {fileID: 0}
 --- !u!1 &2052571476
 GameObject:
   m_ObjectHideFlags: 0
