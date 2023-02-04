@@ -12,7 +12,7 @@ public class Manager : MonoBehaviour {
 	public TextMeshProUGUI vignetteText;
 	public SpriteRenderer vignetteSprite;
 
-	private int _daysLeft = 40;
+	private int _weeksLeft = 40;
 	private bool _showingPopover = false;
 	private Action _popoverContinuation;
 
@@ -32,7 +32,7 @@ public class Manager : MonoBehaviour {
 	}
 
 	void _updateLabel() {
-		daysLeftLabel.SetText($"{_daysLeft} Days Left");
+		daysLeftLabel.SetText($"{_weeksLeft} Weeks Left");
 	}
 
 	public void DismissPopover() {
@@ -49,7 +49,7 @@ public class Manager : MonoBehaviour {
 	}
 
 	public void DidAdvanceDay() {
-		_daysLeft -= 1;
+		_weeksLeft -= 1;
 		_updateLabel();
 	}
 

@@ -1,15 +1,19 @@
-- background sprite behind the text at the top 
-- 4 roots for each district (4 districts)
+- increase to 4 roots for each district (4 districts)
+- to start
+	- hide all roots
+	- add a clickable house (single click)
+	- show a story chunk
+	- unhide first roots
+- weeks run out
+	- popup with bad event
+	- show ending popup
+		- if you complete a district then show that ending (for as many)
+		- if that doesn't happen then show the general ending
+- increase frames to 5
+
+- how to export? do we have a scaling problem
 
 - 414 x 300, make a bit bigger, about 400 high?
 
-- questions to ask other people
-	- what the 
-
-- roots
-	- need to grey roots when not available
-	- link the fourth root click with displaying the textbox
-
-
-- stretch
+- hopefuls
 	- settings
