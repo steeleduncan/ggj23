@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
 
 public class Manager : MonoBehaviour {
 	public Sprite[] rootFrames;
@@ -11,8 +12,9 @@ public class Manager : MonoBehaviour {
 	public TextMeshProUGUI vignetteText;
 	public SpriteRenderer vignetteSprite;
 
-	int _daysLeft = 40;
-	bool _showingPopover = false;
+	private int _daysLeft = 40;
+	private bool _showingPopover = false;
+	private Action _popoverContinuation;
 
     void Start() {
 		_updateLabel();
@@ -36,6 +38,9 @@ public class Manager : MonoBehaviour {
 	public void DismissPopover() {
 		_showingPopover = false;
 		textBoxBacking.SetActive(false);
+		if (_popoverContinuation != null) {
+			_popoverContinuation();
+		}
 	}
 
 	// ie interactivity other than the main one
@@ -48,7 +53,8 @@ public class Manager : MonoBehaviour {
 		_updateLabel();
 	}
 
-	public void ShowTextAndSprite(string text, Sprite picture) {
+	public void ShowTextAndSprite(string text, Sprite picture, Action continuation) {
+		_popoverContinuation = continuation;
 		_showingPopover = true;
 		textBoxBacking.SetActive(true);
 		vignetteText.SetText(text);

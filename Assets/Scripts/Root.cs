@@ -47,17 +47,22 @@ public class Root : MonoBehaviour {
 		_spriteRenderer.sprite = manager.rootFrames[cappedStage];
 	}
 
+	void _popoverDidReturn() {
+		// called upon popover dismissal
+		if (nextRoot != null) {
+			nextRoot.SetRootActive(true);
+		}
+	}
+
 	void _advanceDay() {
 		_stage += 1;
 
 		if (_stage == 4) {
-			manager.ShowTextAndSprite(_vignetteString, _vignetteSprite);
+			manager.ShowTextAndSprite(_vignetteString, _vignetteSprite, _popoverDidReturn);
 			manager.DidAdvanceDay();
 
 			_collider.enabled = false;
-			if (nextRoot != null) {
-				nextRoot.SetRootActive(true);
-			}
+			district.RegisterMouseOut();
 		} else if (_stage >= 4) {
 			// do nothing, it should be inactive
 		} else {

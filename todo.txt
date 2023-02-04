@@ -1,8 +1,10 @@
-- no interactivity when showing the box
-- turn off the next root completely
-- add deferred action to the show box call
-- turn back on the next root
 - background sprite behind the text at the top 
+- 4 roots for each district (4 districts)
+
+- 414 x 300, make a bit bigger, about 400 high?
+
+- questions to ask other people
+	- what the 
 
 - roots
 	- need to grey roots when not available
