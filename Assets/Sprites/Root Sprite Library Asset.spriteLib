@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Library:
-  - m_Name: Gowth
-    m_Hash: 372293468
+  - m_Name: Growth
+    m_Hash: 441246912
     m_CategoryList: []
     m_OverrideEntries:
     - m_Name: 0
