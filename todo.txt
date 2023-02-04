@@ -1,4 +1,3 @@
-- increase to 4 roots for each district (4 districts)
 - to start
 	- hide all roots
 	- add a clickable house (single click)
@@ -11,7 +10,8 @@
 		- if that doesn't happen then show the general ending
 - increase frames to 5
 
-- how to export? do we have a scaling problem
+- sunday
+	- how to export? check we can get it up on itch
 
 - 414 x 300, make a bit bigger, about 400 high?
 

@@ -27,12 +27,21 @@ public class Root : MonoBehaviour {
 		_alignState();
 
 		if (nextRoot != null) {
-			nextRoot.SetRootActive(false);
+			// NB once you deactivate the next root, Start() will not be called
+			nextRoot.DisableRootChain();
 		}
 	}
 
-    public void SetRootActive(bool active) {
+    void _setRootActive(bool active) {
 		gameObject.SetActive(active);
+	}
+
+
+    public void DisableRootChain() {
+		_setRootActive(false);
+		if (nextRoot != null) {
+			nextRoot.DisableRootChain();
+		}
 	}
 
     void Update() {
@@ -50,7 +59,7 @@ public class Root : MonoBehaviour {
 	void _popoverDidReturn() {
 		// called upon popover dismissal
 		if (nextRoot != null) {
-			nextRoot.SetRootActive(true);
+			nextRoot._setRootActive(true);
 		}
 	}
 
