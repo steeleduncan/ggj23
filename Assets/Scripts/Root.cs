@@ -8,7 +8,8 @@ public class Root : MonoBehaviour {
 	private SpriteRenderer _spriteRenderer;
 
 	private Vector3 _originalScale;
-	private int _stage = 2;
+	private int _stage = 0;
+
 
 	void Start() {
 		_originalScale = transform.localScale;
@@ -35,6 +36,8 @@ public class Root : MonoBehaviour {
 
 		_stage += 1;
 		_alignState();
+
+		manager.DidAdvanceDay();
 	}
 
 	void OnMouseEnter() {

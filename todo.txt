@@ -1,0 +1,5 @@
+- text/image system
+- roots
+	- need to grey out some roots
+
+- progress bar at the top
