@@ -4,6 +4,8 @@
 
 - scale properly to the viewport in any case and blackbar
 
+- music
+
 - art manifest
 	- 1920 x 1080 background
 	- the time counter at the top

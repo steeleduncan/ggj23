@@ -39,14 +39,6 @@ public class Root : MonoBehaviour {
 		gameObject.SetActive(active);
 	}
 
-	/*
-    public void DisableRootChain() {
-		if (nextRoot != null) {
-			nextRoot.DisableRootChain();
-		}
-	}
-	*/
-
     void Update() {
         
     }
