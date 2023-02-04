@@ -6,9 +6,12 @@ public class Root : MonoBehaviour {
 	public Manager manager;
 	public District district;
 	private SpriteRenderer _spriteRenderer;
+	public Sprite _vignetteSprite;
+	public TextAsset _vignetteText;
 
 	private Vector3 _originalScale;
 	private int _stage = 0;
+	private string _vignetteString;
 
 
 	void Start() {
@@ -18,6 +21,8 @@ public class Root : MonoBehaviour {
 		gameObject.AddComponent<BoxCollider2D>();
 		_spriteRenderer = GetComponent<SpriteRenderer>();
 
+		_vignetteString = _vignetteText.text;
+
 		_alignState();
 	}
 
@@ -26,18 +31,30 @@ public class Root : MonoBehaviour {
     }
 
 	void _alignState() {
-		_spriteRenderer.sprite = manager.rootFrames[_stage];
+		int cappedStage = _stage;
+		if (cappedStage > 3) {
+			cappedStage = 3;
+		}
+		_spriteRenderer.sprite = manager.rootFrames[cappedStage];
+	}
+
+	void _advanceDay() {
+		_stage += 1;
+
+		if (_stage == 4) {
+			manager.ShowTextAndSprite(_vignetteString, _vignetteSprite);
+			manager.DidAdvanceDay();
+		} else if (_stage >= 4) {
+			// do nothing, it should be inactive
+		} else {
+			manager.DidAdvanceDay();
+		}
+
+		_alignState();
 	}
 
 	void OnMouseDown() {
-		if (_stage >= 4) {
-			return;
-		}
-
-		_stage += 1;
-		_alignState();
-
-		manager.DidAdvanceDay();
+		_advanceDay();
 	}
 
 	void OnMouseEnter() {
