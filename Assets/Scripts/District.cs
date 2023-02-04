@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class District : MonoBehaviour {
+	public Sprite[] rootFrames;
 	public Sprite deselectedSprite, selectedSprite;
 	public TextAsset endingText;
 	public Sprite endingSprite;

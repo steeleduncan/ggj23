@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &61025129
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -325,6 +325,7 @@ MonoBehaviour:
   _vignetteSprite: {fileID: 21300000, guid: 567dd9617ddaec34b9dc58c08a399a29, type: 3}
   _vignetteText: {fileID: 4900000, guid: 089a9cb1ca207184d8b3ee6dccaa8dbb, type: 3}
   nextRoot: {fileID: 1178598233}
+  sourceRoot: 0
 --- !u!1 &75733380
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,6 +527,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71824769d5dc66444bfc30292a01468c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rootFrames:
+  - {fileID: 21300000, guid: b53b6e64b668a094da0803a65b6e568b, type: 3}
+  - {fileID: 21300000, guid: 5a60d8c1a6ec8e644bc40491df398402, type: 3}
+  - {fileID: 21300000, guid: 301fa34ce26fdd748af561e37b5d5e1a, type: 3}
+  - {fileID: 21300000, guid: de5d8f5d41293fb4f9efbdaf041283b0, type: 3}
+  - {fileID: 21300000, guid: 240900c6483aa7144a91a8aacf1d86a0, type: 3}
   deselectedSprite: {fileID: 21300000, guid: 853cd03686b29fd46b4e76b0eda163d3, type: 3}
   selectedSprite: {fileID: 21300000, guid: 84283bdfb96c73c4389ea19ed91446c4, type: 3}
   endingText: {fileID: 4900000, guid: bb20e85c7162fdd459b1fcf160f5ec9b, type: 3}
@@ -633,6 +640,7 @@ MonoBehaviour:
   _vignetteSprite: {fileID: 21300000, guid: af591392108fee7418508b23cd0a1228, type: 3}
   _vignetteText: {fileID: 4900000, guid: 0499383df123ec14a940bf165aa3d59e, type: 3}
   nextRoot: {fileID: 1761292059}
+  sourceRoot: 0
 --- !u!1 &350738133
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,6 +742,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71824769d5dc66444bfc30292a01468c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rootFrames:
+  - {fileID: 21300000, guid: ab17b1d3d940a024d9f8e53ef1ef2a1c, type: 3}
+  - {fileID: 21300000, guid: d96abd003694199408baeda80e85ab68, type: 3}
+  - {fileID: 21300000, guid: 04a0156bf5bd6744b847c1a2d6902823, type: 3}
+  - {fileID: 21300000, guid: 463d88e33ff325649a162b3123b803ef, type: 3}
+  - {fileID: 21300000, guid: 8203fab287972734a8dfdc0c268810eb, type: 3}
   deselectedSprite: {fileID: 21300000, guid: bd2bee89382f9404483ebcc2821d668b, type: 3}
   selectedSprite: {fileID: 21300000, guid: 5190c2e49edb14f4e9d55f675dba41c8, type: 3}
   endingText: {fileID: 4900000, guid: 4e0ece32227833348ae31ee6db722133, type: 3}
@@ -841,6 +855,7 @@ MonoBehaviour:
   _vignetteSprite: {fileID: 21300000, guid: 06f215d96370173468f154a8bf0f387b, type: 3}
   _vignetteText: {fileID: 4900000, guid: 9c70c6a5fe8a8f745a3c4c67203bf243, type: 3}
   nextRoot: {fileID: 72117082}
+  sourceRoot: 0
 --- !u!1 &473292394
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,6 +891,7 @@ MonoBehaviour:
   _vignetteSprite: {fileID: 21300000, guid: 7c5ac44c2520bfe4a8aad7c8624b57db, type: 3}
   _vignetteText: {fileID: 4900000, guid: d1de42362ceab034fb5cc92161710de7, type: 3}
   nextRoot: {fileID: 0}
+  sourceRoot: 0
 --- !u!212 &473292396
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1537,6 +1553,7 @@ MonoBehaviour:
   _vignetteSprite: {fileID: 21300000, guid: 1c88b291bddb5a4449753f03b649b83b, type: 3}
   _vignetteText: {fileID: 4900000, guid: 390c022703fcbda4f9512b44cf439440, type: 3}
   nextRoot: {fileID: 473292395}
+  sourceRoot: 0
 --- !u!212 &636027793
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1740,6 +1757,7 @@ MonoBehaviour:
   _vignetteSprite: {fileID: 21300000, guid: 2386935ede8db624f81ff80267ea28a8, type: 3}
   _vignetteText: {fileID: 4900000, guid: 1a63a71845535544783d9f6dc04d19e7, type: 3}
   nextRoot: {fileID: 0}
+  sourceRoot: 0
 --- !u!212 &654928903
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1909,6 +1927,7 @@ MonoBehaviour:
   _vignetteSprite: {fileID: 21300000, guid: 29e9a518190f7f547ba4cc692d5f3f6a, type: 3}
   _vignetteText: {fileID: 4900000, guid: cb90ce9191656cb4c8d75363367cb934, type: 3}
   nextRoot: {fileID: 692552561}
+  sourceRoot: 0
 --- !u!1 &692552558
 GameObject:
   m_ObjectHideFlags: 0
@@ -2011,6 +2030,7 @@ MonoBehaviour:
   _vignetteSprite: {fileID: 21300000, guid: bd967d734f679e949894c53ad54624d6, type: 3}
   _vignetteText: {fileID: 4900000, guid: 6d9c3ea290fbcf2468cbc22b0defa4ca, type: 3}
   nextRoot: {fileID: 1469493937}
+  sourceRoot: 0
 --- !u!1 &878646041
 GameObject:
   m_ObjectHideFlags: 0
@@ -2198,6 +2218,7 @@ MonoBehaviour:
   _vignetteSprite: {fileID: 21300000, guid: d3e6e5fc551eebf4fa852fa222ff83e5, type: 3}
   _vignetteText: {fileID: 4900000, guid: 287a9c28479f3874c817d5468c3b61e0, type: 3}
   nextRoot: {fileID: 1966240496}
+  sourceRoot: 0
 --- !u!1 &1018164459
 GameObject:
   m_ObjectHideFlags: 0
@@ -2233,6 +2254,7 @@ MonoBehaviour:
   _vignetteSprite: {fileID: 21300000, guid: 0a8e5d202a125004896deb93457b6cbb, type: 3}
   _vignetteText: {fileID: 4900000, guid: 962930a3c37393d44b8258e4b68e27d9, type: 3}
   nextRoot: {fileID: 0}
+  sourceRoot: 0
 --- !u!212 &1018164461
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2426,6 +2448,7 @@ MonoBehaviour:
   _vignetteSprite: {fileID: 21300000, guid: fa72fe92ab0196d4292e1eaa412b5180, type: 3}
   _vignetteText: {fileID: 4900000, guid: 8f6522715d5b2ab41a12f836934bca50, type: 3}
   nextRoot: {fileID: 654928902}
+  sourceRoot: 0
 --- !u!212 &1178598234
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2734,6 +2757,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71824769d5dc66444bfc30292a01468c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rootFrames:
+  - {fileID: 21300000, guid: 6e5202ec962218842a0b7d78a737e209, type: 3}
+  - {fileID: 21300000, guid: 4ab8972f7242f3445b60ec1eb792cb77, type: 3}
+  - {fileID: 21300000, guid: aabed52f4dd71854b958b1767c4da80f, type: 3}
+  - {fileID: 21300000, guid: 560e959852c33c343b9299788f0281ee, type: 3}
+  - {fileID: 21300000, guid: 853aca1f9d6794249b6fb914b0f341dc, type: 3}
   deselectedSprite: {fileID: 21300000, guid: 4917ddafc9e9a954b8b60caf04206668, type: 3}
   selectedSprite: {fileID: 21300000, guid: 45f8fa1a63903694886755b1b222302f, type: 3}
   endingText: {fileID: 4900000, guid: e48d2ad6a7ed5414697027c4fe2f4538, type: 3}
@@ -2975,6 +3004,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71824769d5dc66444bfc30292a01468c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rootFrames:
+  - {fileID: 21300000, guid: 59b45700bfd501c4b9264153d490ec12, type: 3}
+  - {fileID: 21300000, guid: 15fdfded361526f4d887ab968af8ae17, type: 3}
+  - {fileID: 21300000, guid: 45da0c5d3d854b54f9978d9cab8eb012, type: 3}
+  - {fileID: 21300000, guid: 77213c30f6f45ce44ac057c1be9de712, type: 3}
+  - {fileID: 21300000, guid: 3e3f51c2a6ed13b41831736fccd24c56, type: 3}
   deselectedSprite: {fileID: 21300000, guid: 04811515ee0b76e45a78670f04d0dd18, type: 3}
   selectedSprite: {fileID: 21300000, guid: 38a7a83eb149c4343a3699bb497a5474, type: 3}
   endingText: {fileID: 4900000, guid: 61354a67fa3d1134eb11de95c19a5c2c, type: 3}
@@ -3015,6 +3050,7 @@ MonoBehaviour:
   _vignetteSprite: {fileID: 21300000, guid: 5da59fe02e442344d9b1f09570812c11, type: 3}
   _vignetteText: {fileID: 4900000, guid: caa943a391873f4488a24f875b7f9e0c, type: 3}
   nextRoot: {fileID: 1721934710}
+  sourceRoot: 0
 --- !u!212 &1469493938
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3117,6 +3153,7 @@ MonoBehaviour:
   _vignetteSprite: {fileID: 21300000, guid: 38cc8fed74d47f640b265098a849f460, type: 3}
   _vignetteText: {fileID: 4900000, guid: e36947ba666596e42ab9c33e678d49d2, type: 3}
   nextRoot: {fileID: 0}
+  sourceRoot: 0
 --- !u!212 &1721934711
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3286,6 +3323,7 @@ MonoBehaviour:
   _vignetteSprite: {fileID: 21300000, guid: 0bf245695b2b78f4f8d352460775b9b0, type: 3}
   _vignetteText: {fileID: 4900000, guid: 9409f83577c84334f81d97524b442b6c, type: 3}
   nextRoot: {fileID: 1890643262}
+  sourceRoot: 0
 --- !u!1 &1890643261
 GameObject:
   m_ObjectHideFlags: 0
@@ -3321,6 +3359,7 @@ MonoBehaviour:
   _vignetteSprite: {fileID: 21300000, guid: 278b08d8b79535f4cb2ae0b4fb626a06, type: 3}
   _vignetteText: {fileID: 4900000, guid: f2f00ea915499274d8147de601002ad3, type: 3}
   nextRoot: {fileID: 1018164460}
+  sourceRoot: 0
 --- !u!212 &1890643263
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3490,3 +3529,4 @@ MonoBehaviour:
   _vignetteSprite: {fileID: 21300000, guid: 8f29925b14fcab74daa4e09e5b976dcc, type: 3}
   _vignetteText: {fileID: 4900000, guid: e0cbc80bfff0f5e468161bd2ac304e32, type: 3}
   nextRoot: {fileID: 636027792}
+  sourceRoot: 0

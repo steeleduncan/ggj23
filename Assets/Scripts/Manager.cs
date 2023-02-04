@@ -44,6 +44,14 @@ public class Manager : MonoBehaviour {
 		_updateLabel();
 
 		textBoxBacking.SetActive(false);
+
+		foreach (GameObject root in initialRoots) {
+			Root rt = root.GetComponent<Root>();
+			rt.sourceRoot = true;
+			rt.RealignStates();
+
+			root.SetActive(true);
+		}
     }
 
 	void _updateLabel() {
