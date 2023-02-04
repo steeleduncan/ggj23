@@ -50,8 +50,8 @@ public class Root : MonoBehaviour {
 
 	void _alignState() {
 		int cappedStage = _stage;
-		if (cappedStage > 3) {
-			cappedStage = 3;
+		if (cappedStage >= manager.RootFrameCount()) {
+			cappedStage = manager.RootFrameCount() - 1;
 		}
 		_spriteRenderer.sprite = manager.rootFrames[cappedStage];
 	}
@@ -66,13 +66,14 @@ public class Root : MonoBehaviour {
 	void _advanceDay() {
 		_stage += 1;
 
-		if (_stage == 4) {
+		if (_stage == manager.RootFrameCount()) {
+			district.complete = true;
 			manager.ShowTextAndSprite(_vignetteString, _vignetteSprite, _popoverDidReturn);
 			manager.DidAdvanceDay();
 
 			_collider.enabled = false;
 			district.RegisterMouseOut();
-		} else if (_stage >= 4) {
+		} else if (_stage >= manager.RootFrameCount()) {
 			// do nothing, it should be inactive
 		} else {
 			manager.DidAdvanceDay();

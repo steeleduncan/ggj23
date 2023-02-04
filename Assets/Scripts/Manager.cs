@@ -8,7 +8,17 @@ public class Manager : MonoBehaviour {
 	public Sprite[] rootFrames;
 	public TextMeshProUGUI daysLeftLabel;
 	public GameObject textBoxBacking;
+	public District[] districts;
 
+	public TextAsset genericEndingText;
+	public Sprite genericEndingSprite;
+
+	public TextAsset badEventText;
+	public Sprite badEventSprite;
+
+	public TextAsset thanksForPlayingText;
+
+	// the holders of the sprite, etc
 	public TextMeshProUGUI vignetteText;
 	public SpriteRenderer vignetteSprite;
 
@@ -33,6 +43,10 @@ public class Manager : MonoBehaviour {
 
 	void _updateLabel() {
 		daysLeftLabel.SetText($"{_weeksLeft} Weeks Left");
+	}
+
+	public int RootFrameCount() {
+		return rootFrames.Length;
 	}
 
 	public void DismissPopover() {

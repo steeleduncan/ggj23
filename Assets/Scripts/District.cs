@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class District : MonoBehaviour {
 	public Sprite deselectedSprite, selectedSprite;
+	public TextAsset endingText;
+	public Sprite endingSprite;
+
+	// did the story end in this district?
+	public bool complete;
+
 	private SpriteRenderer _spriteRenderer;
 
 	int _refCount = 0;
@@ -11,6 +17,7 @@ public class District : MonoBehaviour {
     void Start() {
 		//		gameObject.AddComponent<BoxCollider2D>();
 
+		complete = false;
 		_spriteRenderer = GetComponent<SpriteRenderer>();
 		_updateGlow();
     }
