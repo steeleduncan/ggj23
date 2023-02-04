@@ -1,21 +1,22 @@
 - to start
+	- draw initial building
 	- hide all roots
 	- add a clickable house (single click)
 	- show a story chunk
 	- unhide first roots
-
-- put everything on a parent node for easy scaling
+- exporting 
+	- scale properly to the viewport in any case and blackbar
+	- how to do a .exe export?
+	- how to do a web export
 
 - sunday
 	- check in with max
-		- putting the texts in their slots
+		- show how to put the texts in their slots
 		- that he isn't thinking of multiple paragraphs per event
 		- has any idea for a name?
 	- check in with lidia
 		- sizes of images
-	- how to export? check we can get it up on itch as html
-	- how to fix the scaling issue?
-	- sound
+	- sound/fmod
 	- 414 x 300, make a bit bigger, about 400 high? can we get an initial image from Lio?
 	- how does everyone want to be credited?
 

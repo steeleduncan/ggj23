@@ -15,6 +15,7 @@ public class District : MonoBehaviour {
 	int _refCount = 0;
 
     void Start() {
+		// uncommenting this may cause bugs with the 
 		//		gameObject.AddComponent<BoxCollider2D>();
 
 		complete = false;
