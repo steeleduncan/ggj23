@@ -4,13 +4,13 @@ using UnityEngine.EventSystems;
 
 public class Clickable : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler
 {
-    public Action<string> OnDown;
+    public Action<GameObject> OnDown;
     public Action<string> OnEnter;
 
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        OnDown?.Invoke(name);
+        OnDown?.Invoke(gameObject);
     }
 
     public void OnPointerEnter(PointerEventData eventData)

@@ -1,8 +1,20 @@
 using UnityEngine;
+using UnityEngine.U2D.Animation;
 
 public class ClickManager : MonoBehaviour
 {
     private Clickable[] _clickables;
+
+    [SerializeField] private int _clicks;
+
+    private int Clicks
+    {
+        get
+        {
+            ++_clicks;
+            return _clicks % 4;
+        }
+    }
 
     private void Awake()
     {
@@ -13,17 +25,19 @@ public class ClickManager : MonoBehaviour
     {
         foreach (var item in _clickables)
         {
-            item.OnDown += Foo;
-            item.OnEnter += Bar;
+            item.OnDown += Cliked;
+            item.OnEnter += Hovered;
         }
     }
 
-    private void Foo(string context)
+    private void Cliked(GameObject context)
     {
-        print($"{context} has been clicked on");
+        context.GetComponent<SpriteResolver>().SetCategoryAndLabel("Gowth", $"{Clicks}");
+
+        print($"{context.name} has been clicked on");
     }
 
-    private void Bar(string context)
+    private void Hovered(string context)
     {
         print($"{context} has been hovered over");
     }
