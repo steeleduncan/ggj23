@@ -1,5 +1,14 @@
-- text/image system
-- roots
-	- need to grey out some roots
+- background sprite behind the text at the top 
 
-- progress bar at the top
+- textbox
+	- add an option to the manager to display a text box on demand
+	- have a picture slot
+	- have a text slot
+
+- roots
+	- need to grey roots when not available
+	- link the fourth root click with displaying the textbox
+
+
+- stretch
+	- settings
