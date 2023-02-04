@@ -1,11 +1,3 @@
-- weeks run out
-	- add a trigger to run the end events
-	- popup with bad event
-		- how to trigger this
-	- show endings popup
-		- if you complete a district then show that ending (for as many)
-		- if that doesn't happen then show the general ending
-
 - to start
 	- hide all roots
 	- add a clickable house (single click)
@@ -15,10 +7,17 @@
 - put everything on a parent node for easy scaling
 
 - sunday
+	- check in with max
+		- putting the texts in their slots
+		- that he isn't thinking of multiple paragraphs per event
+		- has any idea for a name?
+	- check in with lidia
+		- sizes of images
 	- how to export? check we can get it up on itch as html
 	- how to fix the scaling issue?
 	- sound
 	- 414 x 300, make a bit bigger, about 400 high? can we get an initial image from Lio?
+	- how does everyone want to be credited?
 
 - hopefuls
 	- settings

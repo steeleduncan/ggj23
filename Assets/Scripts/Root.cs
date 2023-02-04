@@ -61,6 +61,7 @@ public class Root : MonoBehaviour {
 		if (nextRoot != null) {
 			nextRoot._setRootActive(true);
 		}
+		manager.CheckEndEvents();
 	}
 
 	void _advanceDay() {
@@ -77,6 +78,7 @@ public class Root : MonoBehaviour {
 			// do nothing, it should be inactive
 		} else {
 			manager.DidAdvanceDay();
+			manager.CheckEndEvents();
 		}
 
 		_alignState();
