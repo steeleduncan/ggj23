@@ -1,5 +1,3 @@
-- ideally mark all the images to check the connections, and mark default
-
 - exporting 
 	- scale properly to the viewport in any case and blackbar
 	- how to do a .exe export?
