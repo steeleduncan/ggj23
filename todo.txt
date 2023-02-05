@@ -1,4 +1,6 @@
 - bug: seeing too many endings
+- ui asset
+- map overview with root positions
 - viewport fixing
 
 - max
