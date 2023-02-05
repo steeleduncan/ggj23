@@ -404,7 +404,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75733380}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3, y: -0.35, z: -0.105}
+  m_LocalPosition: {x: 0.36, y: -0.17, z: -0.105}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -438,7 +438,7 @@ GameObject:
   - component: {fileID: 159353321}
   - component: {fileID: 159353323}
   m_Layer: 0
-  m_Name: district-b-love
+  m_Name: district-b-family
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -653,7 +653,7 @@ GameObject:
   - component: {fileID: 350738134}
   - component: {fileID: 350738136}
   m_Layer: 0
-  m_Name: district-d-friends
+  m_Name: district-d-love
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2915,7 +2915,7 @@ GameObject:
   - component: {fileID: 1464870574}
   - component: {fileID: 1464870576}
   m_Layer: 0
-  m_Name: district-c-family
+  m_Name: district-c-friends
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2981,7 +2981,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1464870573}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.32, y: 2.16, z: -0.1}
+  m_LocalPosition: {x: -3.36, y: 2.16, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
