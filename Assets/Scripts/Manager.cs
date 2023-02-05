@@ -41,6 +41,7 @@ public class Manager : MonoBehaviour {
 
 	// The roots should have all done Awake by this point
     void Start() {
+		StartAmbience();
 		_showingPopover = false;
 
 		// nothing apart from the house to start
@@ -96,6 +97,8 @@ public class Manager : MonoBehaviour {
 	}
 
 	void _startEndEvents() {
+		PlayStorm();
+			
 		timerNode.SetActive(false);
 		_allowInteractivity = false;
 
@@ -135,11 +138,13 @@ public class Manager : MonoBehaviour {
 
 	public void BackgroundClicked() {
 		if (_showingPopover) {
+			PlayClick();
 			DismissPopover();
 		}
 	}
 
 	public void DidClickHouse() {
+		PlayClick();
 		popover.PrepareToShow();
 		ShowTextAndSprite(startingText.text, startingSprite, _startGame);
 	}
@@ -175,5 +180,21 @@ public class Manager : MonoBehaviour {
 		textBoxBacking.SetActive(true);
 		vignetteText.SetText(text);
 		vignetteSprite.sprite = picture;
+	}
+
+	public void PlayStorm() {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Storm");
+	}	
+
+	public void PlayRoots() {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Roots");
+	}	
+
+	public void StartAmbience() {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Ambience/Ambience");
+	}
+
+	public void PlayClick() {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Click");
 	}
 }

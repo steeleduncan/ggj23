@@ -74,6 +74,7 @@ public class Root : MonoBehaviour {
 			if (nextRoot == null) {
 				district.complete = true;
 			}
+			manager.PlayRoots();
 			manager.ShowTextAndSprite(_vignetteString, _vignetteSprite, _popoverDidReturn);
 			manager.DidAdvanceDay();
 
@@ -82,6 +83,7 @@ public class Root : MonoBehaviour {
 		} else if (_stage >= manager.RootFrameCount()) {
 			// do nothing, it should be inactive
 		} else {
+			manager.PlayClick();
 			manager.DidAdvanceDay();
 			manager.CheckEndEvents();
 		}

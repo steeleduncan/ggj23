@@ -1,13 +1,10 @@
-- viewport fixing
+- viewport fix
 
 - notes
 	- A : light brown : career
 	- B : pink        : family
 	- C : blue        : friendship
 	- D : dark brown  : love
-
-- luke
-	- do the music fmod events
 
 - required copy
 	- name
