@@ -1,4 +1,4 @@
-- check the generic ending
+- possible to keep the areas coloured
 - viewport fix
 - change title?
 
@@ -30,8 +30,6 @@
 			- bad event (optional)
 			- 4 district endings
 			- generic ending
-
-	
 
 - hopefuls
 	- settings
