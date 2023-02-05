@@ -1,4 +1,6 @@
-- check in with max
+- viewport fixing
+
+- max
 	- agree on what a,b,c,d mean
 	- show how to put the texts in their slots (https://github.com/steeleduncan/ggj23/tree/main/Assets/Text)
 	- that he isn't thinking of multiple paragraphs per event
@@ -8,7 +10,12 @@
 		- B: family
 		- C: friendship
 		- D: love
-- do the music fmod events with luke 
+- luke
+	- do the music fmod events
+
+- required copy
+	- name
+	- text for itch page
 
 - put in some transparent frames for the unused images
 - how does everyone want to be credited?
@@ -19,28 +26,15 @@
 	- lio
 	- tommy
 
-- integrates
-	- sound
-	- art
-		- (DONE) bg
-
-
 - misc TODOs
 	- itch page
 	- name for it
 
 - art manifest
-	- 1920 x 1080 background
 	- the time counter at the top
 	- 5 root sets of 5 frames each
 		- house to district x 4
 		- in district
-	- house
-		- greyed
-		- normal
-	- districts (4 each)
-		- greyed
-		- normal
 	- vignettes
 		- district a x 4
 		- district b x 4

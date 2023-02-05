@@ -1,1 +1,3 @@
 Thanks for playing - a game by "Game Jam Pals"
+
+Press escape to exit

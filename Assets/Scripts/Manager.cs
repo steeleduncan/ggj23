@@ -56,6 +56,12 @@ public class Manager : MonoBehaviour {
 		}
     }
 
+	void Update() {
+		if (Input.GetKey("escape")) {
+            Application.Quit();
+        }
+	}
+
 	void _updateLabel() {
 		daysLeftLabel.SetText($"{_weeksLeft} Weeks Left");
 	}
