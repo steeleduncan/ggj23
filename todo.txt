@@ -10,9 +10,6 @@
 		- D: love
 - do the music fmod events with luke 
 
-- bugs
-	- initial roots are showing again
-
 - put in some transparent frames for the unused images
 - how does everyone want to be credited?
 	- data
