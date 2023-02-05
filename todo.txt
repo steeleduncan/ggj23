@@ -1,27 +1,5 @@
-- vignettes
-	- ending
-		- 4 district endings
-		- generic ending
-
-- ping luke
 - change title?
-- integrate generic ending from lidia
-
-- put in some transparent frames for the unused images
-- how does everyone want to be credited?
-	- data
-	- lid (twitter?)
-	- max (twitter?)
-	- luke
-	- lio
-	- tommy
-
-- misc TODOs
-	- itch page
-	- name for it
-
-- hopefuls
-	- settings
+- centre in the viewport?
 
 - notes
 	- A : light brown : career
