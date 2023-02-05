@@ -1,17 +1,11 @@
-- update text box
-- reorganise root frames
 - viewport fixing
 
-- max
-	- agree on what a,b,c,d mean
-	- show how to put the texts in their slots (https://github.com/steeleduncan/ggj23/tree/main/Assets/Text)
-	- that he isn't thinking of multiple paragraphs per event
-	- has any idea for a name?
-	- notes
-		- A: career
-		- B: family
-		- C: friendship
-		- D: love
+- notes
+	- A : light brown : career
+	- B : pink        : family
+	- C : blue        : friendship
+	- D : dark brown  : love
+
 - luke
 	- do the music fmod events
 
