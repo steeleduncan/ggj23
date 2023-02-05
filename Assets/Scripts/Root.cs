@@ -5,7 +5,6 @@ using UnityEngine;
 public class Root : MonoBehaviour {
 	public Manager manager;
 	public District district;
-	public Sprite _vignetteSprite;
 	public TextAsset _vignetteText;
 	public Root nextRoot;
 
@@ -77,7 +76,7 @@ public class Root : MonoBehaviour {
 				district.complete = true;
 			}
 			manager.Play(completionSound);
-			manager.ShowTextAndSprite(_vignetteString, _vignetteSprite, _popoverDidReturn);
+			manager.ShowTextAndSprite(_vignetteString, null, _popoverDidReturn);
 			manager.DidAdvanceDay();
 
 			_collider.enabled = false;

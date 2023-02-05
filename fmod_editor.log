@@ -71,3 +71,10 @@
 [LOG] SoundI::release                          :     roots2_1 (000002166EF36FA8)
 [LOG] SoundI::release                          :  (0000021691ABAE18)
 [LOG] SoundI::release                          :     roots2_2 (000002166F08A3E8)
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::close                           : Closed.

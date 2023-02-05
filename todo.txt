@@ -1,6 +1,11 @@
-- possible to keep the areas coloured
-- viewport fix
+- vignettes
+	- ending
+		- 4 district endings
+		- generic ending
+
+- ping luke
 - change title?
+- integrate generic ending from lidia
 
 - put in some transparent frames for the unused images
 - how does everyone want to be credited?
@@ -14,22 +19,6 @@
 - misc TODOs
 	- itch page
 	- name for it
-
-- art manifest
-	- the time counter at the top
-	- 5 root sets of 5 frames each
-		- house to district x 4
-		- in district
-	- vignettes
-		- district a x 4
-		- district b x 4
-		- district c x 4
-		- district d x 4
-		- beginning (optional)
-		- ending
-			- bad event (optional)
-			- 4 district endings
-			- generic ending
 
 - hopefuls
 	- settings

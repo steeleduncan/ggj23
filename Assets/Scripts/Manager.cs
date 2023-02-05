@@ -18,13 +18,11 @@ public class Manager : MonoBehaviour {
 	public GameObject timerNode;
 
 	public TextAsset startingText;
-	public Sprite startingSprite;
 
 	public TextAsset genericEndingText;
 	public Sprite genericEndingSprite;
 
 	public TextAsset badEventText;
-	public Sprite badEventSprite;
 
 	public TextAsset thanksForPlayingText;
 
@@ -109,7 +107,7 @@ public class Manager : MonoBehaviour {
 		_endingStrings = new List<string>();
 		_endingSounds = new List<string>();
 
-		_endingSprites.Add(badEventSprite);
+		_endingSprites.Add(null);
 		_endingStrings.Add(badEventText.text);
 		_endingSounds.Add("");
 
@@ -161,7 +159,7 @@ public class Manager : MonoBehaviour {
 	public void DidClickHouse() {
 		PlayClick();
 		popover.PrepareToShow();
-		ShowTextAndSprite(startingText.text, startingSprite, _startGame);
+		ShowTextAndSprite(startingText.text, null, _startGame);
 	}
 
 	public void DismissPopover() {
