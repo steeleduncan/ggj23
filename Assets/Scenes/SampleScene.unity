@@ -484,6 +484,7 @@ MonoBehaviour:
   selectedSprite: {fileID: 21300000, guid: 84283bdfb96c73c4389ea19ed91446c4, type: 3}
   endingText: {fileID: 4900000, guid: bb20e85c7162fdd459b1fcf160f5ec9b, type: 3}
   endingSprite: {fileID: 21300000, guid: 8ed75104450611340aebea82916742af, type: 3}
+  endingSound: /SFX/Story/Family/FamilyEnd
   complete: 0
 --- !u!1 &306423073
 GameObject:
@@ -834,6 +835,7 @@ MonoBehaviour:
   selectedSprite: {fileID: 21300000, guid: 5190c2e49edb14f4e9d55f675dba41c8, type: 3}
   endingText: {fileID: 4900000, guid: 4e0ece32227833348ae31ee6db722133, type: 3}
   endingSprite: {fileID: 21300000, guid: 6c1dc074cc668864796e135e10df174b, type: 3}
+  endingSound: /SFX/Story/Love/LoveEnd
   complete: 0
 --- !u!1 &422257838
 GameObject:
@@ -2957,6 +2959,7 @@ MonoBehaviour:
   selectedSprite: {fileID: 21300000, guid: 45f8fa1a63903694886755b1b222302f, type: 3}
   endingText: {fileID: 4900000, guid: e48d2ad6a7ed5414697027c4fe2f4538, type: 3}
   endingSprite: {fileID: 21300000, guid: 16ac68b9ef6e6c24d8cfa367121e4495, type: 3}
+  endingSound: /SFX/Story/Career/CareerEnd
   complete: 0
 --- !u!1 &1443973717
 GameObject:
@@ -3203,6 +3206,7 @@ MonoBehaviour:
   selectedSprite: {fileID: 21300000, guid: 38a7a83eb149c4343a3699bb497a5474, type: 3}
   endingText: {fileID: 4900000, guid: 61354a67fa3d1134eb11de95c19a5c2c, type: 3}
   endingSprite: {fileID: 21300000, guid: 5c7585f30dc4eaa45b35daf378acd6dd, type: 3}
+  endingSound: /SFX/Story/Friendships/FriendsEnd
   complete: 0
 --- !u!1 &1469493936
 GameObject:

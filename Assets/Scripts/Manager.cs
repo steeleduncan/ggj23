@@ -38,6 +38,7 @@ public class Manager : MonoBehaviour {
 
 	private List<Sprite> _endingSprites;
 	private List<string> _endingStrings;
+	private List<string> _endingSounds;
 
 	// The roots should have all done Awake by this point
     void Start() {
@@ -92,6 +93,7 @@ public class Manager : MonoBehaviour {
 			nextAction = _restartGame;
 		}
 		
+		Play(_endingSounds[_endStage]);
 		ShowTextAndSprite(_endingStrings[_endStage], _endingSprites[_endStage], nextAction);
 		_endStage += 1;
 	}
@@ -105,19 +107,23 @@ public class Manager : MonoBehaviour {
 		_endStage = 0;
 		_endingSprites = new List<Sprite>();
 		_endingStrings = new List<string>();
+		_endingSounds = new List<string>();
 
 		_endingSprites.Add(badEventSprite);
 		_endingStrings.Add(badEventText.text);
+		_endingSounds.Add("");
 
 		foreach (District district in districts) {
 			if (district.complete) {
 				_endingSprites.Add(district.endingSprite);
 				_endingStrings.Add(district.endingText.text);
+				_endingSounds.Add(district.endingSound);
 			}
 		}
 
 		_endingSprites.Add(null);
 		_endingStrings.Add(thanksForPlayingText.text);
+		_endingSounds.Add("");
 
 		_nextEndStage();
 	}

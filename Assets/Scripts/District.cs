@@ -7,6 +7,7 @@ public class District : MonoBehaviour {
 	public Sprite deselectedSprite, selectedSprite;
 	public TextAsset endingText;
 	public Sprite endingSprite;
+	public string endingSound;
 
 	// did the story end in this district?
 	public bool complete;
