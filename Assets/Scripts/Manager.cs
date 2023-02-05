@@ -13,6 +13,7 @@ public class Manager : MonoBehaviour {
 	public GameObject textBoxBacking;
 	public District[] districts;
 	public GameObject[] initialRoots;
+	public Popover popover;
 
 	public GameObject timerNode;
 
@@ -126,7 +127,14 @@ public class Manager : MonoBehaviour {
 		}
 	}
 
+	public void BackgroundClicked() {
+		if (_showingPopover) {
+			DismissPopover();
+		}
+	}
+
 	public void DidClickHouse() {
+		popover.PrepareToShow();
 		ShowTextAndSprite(startingText.text, startingSprite, _startGame);
 	}
 

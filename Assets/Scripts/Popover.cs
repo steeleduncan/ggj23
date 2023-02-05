@@ -5,11 +5,7 @@ using UnityEngine;
 public class Popover : MonoBehaviour {
 	public Manager manager;
 
-    void Start() {
-		gameObject.AddComponent<BoxCollider2D>();
-    }
+	public void PrepareToShow() {
 
-	void OnMouseDown() {
-		manager.DismissPopover();
 	}
 }

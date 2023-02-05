@@ -1,9 +1,9 @@
-- ui assets, shall I generate?
+- fix the popover dismiss
+- update text box
+- reorganise root frames
 - calendar
-	- text colour
-	- the lhs text
-	- the underline
-- map overview with root positions
+	- update background (including underline)
+	- put the underline in
 - viewport fixing
 
 - max
