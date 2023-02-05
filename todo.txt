@@ -3,8 +3,16 @@
 	- show how to put the texts in their slots (https://github.com/steeleduncan/ggj23/tree/main/Assets/Text)
 	- that he isn't thinking of multiple paragraphs per event
 	- has any idea for a name?
-- how to scale properly to the viewport in any case?
+	- notes
+		- A: career
+		- B: family
+		- C: friendship
+		- D: love
 - do the music fmod events with luke 
+
+- bugs
+	- initial roots are showing again
+
 - put in some transparent frames for the unused images
 - how does everyone want to be credited?
 	- data
@@ -13,6 +21,16 @@
 	- luke
 	- lio
 	- tommy
+
+- integrates
+	- sound
+	- art
+		- (DONE) bg
+
+
+- misc TODOs
+	- itch page
+	- name for it
 
 - art manifest
 	- 1920 x 1080 background

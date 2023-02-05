@@ -38,7 +38,9 @@ public class Manager : MonoBehaviour {
 	// The roots should have all done Awake by this point
     void Start() {
 		_showingPopover = false;
-		_allowInteractivity = true;
+
+		// nothing apart from the house to start
+		_allowInteractivity = false;
 		_weeksLeft = 40;
 
 		_updateLabel();
@@ -50,7 +52,7 @@ public class Manager : MonoBehaviour {
 			rt.sourceRoot = true;
 			rt.RealignStates();
 
-			root.SetActive(true);
+			root.SetActive(false);
 		}
     }
 
@@ -104,6 +106,7 @@ public class Manager : MonoBehaviour {
 	}
 
 	public void _startGame() {
+		_allowInteractivity = true;
 		foreach (GameObject root in initialRoots) {
 			root.SetActive(true);
 		}
