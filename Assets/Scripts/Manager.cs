@@ -72,7 +72,13 @@ public class Manager : MonoBehaviour {
 	}
 
 	void _updateLabel() {
-		daysLeftLabel.SetText($"{_weeksLeft} Weeks Left");
+		int totalWeekCount = 40;
+		int weekCounter = 1 + totalWeekCount - _weeksLeft;
+		if (weekCounter > totalWeekCount) {
+			weekCounter = totalWeekCount;
+		}
+
+		daysLeftLabel.SetText($"Week {weekCounter} / {totalWeekCount}");
 	}
 
 	public int RootFrameCount() {

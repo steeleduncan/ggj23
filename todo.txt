@@ -1,9 +1,5 @@
-- fix the popover dismiss
 - update text box
 - reorganise root frames
-- calendar
-	- update background (including underline)
-	- put the underline in
 - viewport fixing
 
 - max

@@ -622,8 +622,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -431.5112, y: -168.8025}
-  m_SizeDelta: {x: 7.2513, y: 0.5274}
+  m_AnchoredPosition: {x: -432.31, y: -168.5}
+  m_SizeDelta: {x: 3.3235, y: 0.2418}
   m_Pivot: {x: 0.5377205, y: -0.3776706}
 --- !u!114 &323784462
 MonoBehaviour:
@@ -672,7 +672,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.45
+  m_fontSize: 0.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2498,6 +2498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1059374627}
   - component: {fileID: 1059374628}
+  - component: {fileID: 1059374629}
   m_Layer: 0
   m_Name: Root
   m_TagString: Untagged
@@ -2579,6 +2580,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1059374629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059374626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c889b4f888d697489667ab22b2fd5af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 1269032791}
 --- !u!1 &1178598232
 GameObject:
   m_ObjectHideFlags: 0
@@ -2796,6 +2810,7 @@ MonoBehaviour:
   - {fileID: 897332913}
   - {fileID: 306423073}
   - {fileID: 422257838}
+  popover: {fileID: 61025131}
   timerNode: {fileID: 878646041}
   startingText: {fileID: 4900000, guid: e4601b072e2898b4b9deec93a258662a, type: 3}
   startingSprite: {fileID: 21300000, guid: c601430d44648f443a39bc7570d5be0c, type: 3}
@@ -2967,8 +2982,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -431.5112, y: -168.8025}
-  m_SizeDelta: {x: 7.2513, y: 0.5274}
+  m_AnchoredPosition: {x: -431.1, y: -168.5}
+  m_SizeDelta: {x: 3.3235, y: 0.2418}
   m_Pivot: {x: 0.5377205, y: -0.3776706}
 --- !u!114 &1443973719
 MonoBehaviour:
@@ -3017,7 +3032,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.45
+  m_fontSize: 0.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
