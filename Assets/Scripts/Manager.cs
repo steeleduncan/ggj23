@@ -1,8 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 using TMPro;
-using System;
 
 public class Manager : MonoBehaviour {
 	public Sprite[] rootFrames;
@@ -62,6 +65,11 @@ public class Manager : MonoBehaviour {
         }
 	}
 
+	void _restartGame() {
+		Scene scene = SceneManager.GetActiveScene();
+		SceneManager.LoadScene(scene.name);
+	}
+
 	void _updateLabel() {
 		daysLeftLabel.SetText($"{_weeksLeft} Weeks Left");
 	}
@@ -73,7 +81,7 @@ public class Manager : MonoBehaviour {
 	void _nextEndStage() {
 		Action nextAction = _nextEndStage;
 		if (_endStage == (_endingSprites.Count - 1)) {
-			nextAction = null;
+			nextAction = _restartGame;
 		}
 		
 		ShowTextAndSprite(_endingStrings[_endStage], _endingSprites[_endStage], nextAction);

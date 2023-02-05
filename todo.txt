@@ -1,3 +1,4 @@
+- bug: seeing too many endings
 - viewport fixing
 
 - max
