@@ -93,6 +93,7 @@ public class Root : MonoBehaviour {
 	}
 
 	void OnMouseDown() {
+		manager.BackgroundClicked();
 		if (!manager.ShouldAllowInteractivity()) {
 			return;
 		}
