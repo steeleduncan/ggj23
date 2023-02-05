@@ -1,9 +1,0 @@
-- change title?
-- centre in the viewport?
-
-- notes
-	- A : light brown : career
-	- B : pink        : family
-	- C : blue        : friendship
-	- D : dark brown  : love
-
