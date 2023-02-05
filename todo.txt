@@ -1,5 +1,8 @@
-- bug: seeing too many endings
-- ui asset
+- ui assets, shall I generate?
+- calendar
+	- text colour
+	- the lhs text
+	- the underline
 - map overview with root positions
 - viewport fixing
 

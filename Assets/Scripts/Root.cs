@@ -71,7 +71,9 @@ public class Root : MonoBehaviour {
 		_stage += 1;
 
 		if (_stage == manager.RootFrameCount()) {
-			district.complete = true;
+			if (nextRoot == null) {
+				district.complete = true;
+			}
 			manager.ShowTextAndSprite(_vignetteString, _vignetteSprite, _popoverDidReturn);
 			manager.DidAdvanceDay();
 
