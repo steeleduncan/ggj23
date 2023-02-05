@@ -113,12 +113,21 @@ public class Manager : MonoBehaviour {
 		_endingStrings.Add(badEventText.text);
 		_endingSounds.Add("");
 
+		bool needGeneric = true;
+
 		foreach (District district in districts) {
 			if (district.complete) {
 				_endingSprites.Add(district.endingSprite);
 				_endingStrings.Add(district.endingText.text);
 				_endingSounds.Add(district.endingSound);
+				needGeneric = false;
 			}
+		}
+
+		if (needGeneric) {
+			_endingSprites.Add(genericEndingSprite);
+			_endingStrings.Add(genericEndingText.text);
+			_endingSounds.Add("");
 		}
 
 		_endingSprites.Add(null);

@@ -53,7 +53,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 620
 --- !u!114 &-8441290377250509405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,7 +107,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 620
 --- !u!114 &-6531090729903070738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,7 +162,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 620
 --- !u!114 &-6307348531006918813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,7 +189,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 620
 --- !u!114 &-6140551690032156030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,7 +216,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 699
+  Length: 620
 --- !u!114 &-5119090798317894357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,7 +243,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 620
 --- !u!114 &-4699468493633605084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -313,7 +313,6 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -8781144958691720506}
   - {fileID: -6531090729903070738}
-  - {fileID: 1066185316646585493}
   - {fileID: -8441290377250509405}
   - {fileID: 5482200598536590659}
   - {fileID: -6140551690032156030}
@@ -341,7 +340,7 @@ MonoBehaviour:
   - {fileID: 606667162245309083}
   StringsBanks:
   - {fileID: 6237455071763071235}
-  cacheTime: 638111991576939726
+  cacheTime: 638112001501482864
   cacheVersion: 131601
 --- !u!114 &4927204351020343
 MonoBehaviour:
@@ -369,7 +368,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 620
 --- !u!114 &325994143837091509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -396,7 +395,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 620
 --- !u!114 &361208505814605037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -423,7 +422,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 620
 --- !u!114 &606667162245309083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -439,36 +438,9 @@ MonoBehaviour:
   Path: Assets/Fmod/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638111991576929925
+  lastModified: 638112001501482864
   FileSizes: []
   Exists: 1
---- !u!114 &1066185316646585493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Roots
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Roots
-  Guid:
-    Data1: -603172103
-    Data2: 1186290825
-    Data3: -525505658
-    Data4: 31027057
-  Banks:
-  - {fileID: 606667162245309083}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 550
 --- !u!114 &1392658897039894866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -549,7 +521,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 620
 --- !u!114 &2132282770262877908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -603,7 +575,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 620
 --- !u!114 &2623048723363578804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -630,7 +602,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 699
+  Length: 620
 --- !u!114 &4625771869173351627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -657,7 +629,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 620
 --- !u!114 &4857900877078965682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -684,7 +656,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 620
 --- !u!114 &5482200598536590659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -711,7 +683,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 620
 --- !u!114 &6075089482576089283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -738,7 +710,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 620
 --- !u!114 &6237455071763071235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -754,10 +726,10 @@ MonoBehaviour:
   Path: Assets/Fmod/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638111991576939726
+  lastModified: 638112001501482864
   FileSizes:
   - Name: 
-    Value: 1784
+    Value: 1736
   Exists: 1
 --- !u!114 &7861830117761939640
 MonoBehaviour:
