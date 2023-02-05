@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &61025130
 Transform:
   m_ObjectHideFlags: 0
@@ -269,7 +269,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1269032791}
   district: {fileID: 350738136}
-  _vignetteSprite: {fileID: 21300000, guid: 567dd9617ddaec34b9dc58c08a399a29, type: 3}
   _vignetteText: {fileID: 4900000, guid: 089a9cb1ca207184d8b3ee6dccaa8dbb, type: 3}
   nextRoot: {fileID: 1178598233}
   completionSound: /SFX/Story/Love/Love2
@@ -585,10 +584,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1269032791}
   district: {fileID: 1464870576}
-  _vignetteSprite: {fileID: 21300000, guid: af591392108fee7418508b23cd0a1228, type: 3}
   _vignetteText: {fileID: 4900000, guid: 0499383df123ec14a940bf165aa3d59e, type: 3}
   nextRoot: {fileID: 1761292059}
-  completionSound: /SFX/Story/Friendship/Friends1
+  completionSound: /SFX/Story/Friendships/Friends1
   sourceRoot: 0
 --- !u!1 &323784460
 GameObject:
@@ -936,7 +934,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1269032791}
   district: {fileID: 350738136}
-  _vignetteSprite: {fileID: 21300000, guid: 06f215d96370173468f154a8bf0f387b, type: 3}
   _vignetteText: {fileID: 4900000, guid: 9c70c6a5fe8a8f745a3c4c67203bf243, type: 3}
   nextRoot: {fileID: 72117082}
   completionSound: /SFX/Story/Love/Love1
@@ -973,7 +970,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1269032791}
   district: {fileID: 159353323}
-  _vignetteSprite: {fileID: 21300000, guid: 7c5ac44c2520bfe4a8aad7c8624b57db, type: 3}
   _vignetteText: {fileID: 4900000, guid: d1de42362ceab034fb5cc92161710de7, type: 3}
   nextRoot: {fileID: 0}
   completionSound: /SFX/Story/Family/Family4
@@ -1295,8 +1291,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 581235688}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.01, y: 1.84, z: -0.1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.03, y: 1.74, z: -0.1}
+  m_LocalScale: {x: 0.7519, y: 0.7519, z: 0.7519}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 61025130}
@@ -1343,7 +1339,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 938eb2281cdab6d43bf11e236d6dfc7e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6c1dc074cc668864796e135e10df174b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1637,7 +1633,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1269032791}
   district: {fileID: 159353323}
-  _vignetteSprite: {fileID: 21300000, guid: 1c88b291bddb5a4449753f03b649b83b, type: 3}
   _vignetteText: {fileID: 4900000, guid: 390c022703fcbda4f9512b44cf439440, type: 3}
   nextRoot: {fileID: 473292395}
   completionSound: /SFX/Story/Family/Family3
@@ -1842,7 +1837,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1269032791}
   district: {fileID: 350738136}
-  _vignetteSprite: {fileID: 21300000, guid: 2386935ede8db624f81ff80267ea28a8, type: 3}
   _vignetteText: {fileID: 4900000, guid: 1a63a71845535544783d9f6dc04d19e7, type: 3}
   nextRoot: {fileID: 0}
   completionSound: /SFX/Story/Love/Love4
@@ -2013,7 +2007,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1269032791}
   district: {fileID: 1298572533}
-  _vignetteSprite: {fileID: 21300000, guid: 29e9a518190f7f547ba4cc692d5f3f6a, type: 3}
   _vignetteText: {fileID: 4900000, guid: cb90ce9191656cb4c8d75363367cb934, type: 3}
   nextRoot: {fileID: 692552561}
   completionSound: /SFX/Story/Career/Career1
@@ -2117,7 +2110,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1269032791}
   district: {fileID: 1298572533}
-  _vignetteSprite: {fileID: 21300000, guid: bd967d734f679e949894c53ad54624d6, type: 3}
   _vignetteText: {fileID: 4900000, guid: 6d9c3ea290fbcf2468cbc22b0defa4ca, type: 3}
   nextRoot: {fileID: 1469493937}
   completionSound: /SFX/Story/Career/Career2
@@ -2391,7 +2383,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1269032791}
   district: {fileID: 159353323}
-  _vignetteSprite: {fileID: 21300000, guid: d3e6e5fc551eebf4fa852fa222ff83e5, type: 3}
   _vignetteText: {fileID: 4900000, guid: 287a9c28479f3874c817d5468c3b61e0, type: 3}
   nextRoot: {fileID: 1966240496}
   completionSound: /SFX/Story/Family/Family1
@@ -2428,10 +2419,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1269032791}
   district: {fileID: 1464870576}
-  _vignetteSprite: {fileID: 21300000, guid: 0a8e5d202a125004896deb93457b6cbb, type: 3}
   _vignetteText: {fileID: 4900000, guid: 962930a3c37393d44b8258e4b68e27d9, type: 3}
   nextRoot: {fileID: 0}
-  completionSound: /SFX/Story/Friendship/Friends4
+  completionSound: /SFX/Story/Friendships/Friends4
   sourceRoot: 0
 --- !u!212 &1018164461
 SpriteRenderer:
@@ -2637,7 +2627,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1269032791}
   district: {fileID: 350738136}
-  _vignetteSprite: {fileID: 21300000, guid: fa72fe92ab0196d4292e1eaa412b5180, type: 3}
   _vignetteText: {fileID: 4900000, guid: 8f6522715d5b2ab41a12f836934bca50, type: 3}
   nextRoot: {fileID: 654928902}
   completionSound: /SFX/Story/Love/Love3
@@ -2826,11 +2815,9 @@ MonoBehaviour:
   popover: {fileID: 61025131}
   timerNode: {fileID: 878646041}
   startingText: {fileID: 4900000, guid: e4601b072e2898b4b9deec93a258662a, type: 3}
-  startingSprite: {fileID: 21300000, guid: c601430d44648f443a39bc7570d5be0c, type: 3}
   genericEndingText: {fileID: 4900000, guid: 91151b36c2c45884796553d1ae813b65, type: 3}
   genericEndingSprite: {fileID: 21300000, guid: 9afb6eef0deee9c4eb2107ae8d4a9459, type: 3}
   badEventText: {fileID: 4900000, guid: 49f188a7404b2bf40aa2f529278bc01d, type: 3}
-  badEventSprite: {fileID: 21300000, guid: 0677ccf4a16fb314bb5e33175f338bc2, type: 3}
   thanksForPlayingText: {fileID: 4900000, guid: 4e679ef4c7bfa544ca708fbc673c10ff, type: 3}
   vignetteText: {fileID: 603239362}
   vignetteSprite: {fileID: 581235690}
@@ -3240,7 +3227,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1269032791}
   district: {fileID: 1298572533}
-  _vignetteSprite: {fileID: 21300000, guid: 5da59fe02e442344d9b1f09570812c11, type: 3}
   _vignetteText: {fileID: 4900000, guid: caa943a391873f4488a24f875b7f9e0c, type: 3}
   nextRoot: {fileID: 1721934710}
   completionSound: /SFX/Story/Career/Career3
@@ -3344,7 +3330,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1269032791}
   district: {fileID: 1298572533}
-  _vignetteSprite: {fileID: 21300000, guid: 38cc8fed74d47f640b265098a849f460, type: 3}
   _vignetteText: {fileID: 4900000, guid: e36947ba666596e42ab9c33e678d49d2, type: 3}
   nextRoot: {fileID: 0}
   completionSound: /SFX/Story/Career/Career4
@@ -3515,10 +3500,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1269032791}
   district: {fileID: 1464870576}
-  _vignetteSprite: {fileID: 21300000, guid: 0bf245695b2b78f4f8d352460775b9b0, type: 3}
   _vignetteText: {fileID: 4900000, guid: 9409f83577c84334f81d97524b442b6c, type: 3}
   nextRoot: {fileID: 1890643262}
-  completionSound: /SFX/Story/Friendship/Friends2
+  completionSound: /SFX/Story/Friendships/Friends2
   sourceRoot: 0
 --- !u!1 &1890643261
 GameObject:
@@ -3552,10 +3536,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1269032791}
   district: {fileID: 1464870576}
-  _vignetteSprite: {fileID: 21300000, guid: 278b08d8b79535f4cb2ae0b4fb626a06, type: 3}
   _vignetteText: {fileID: 4900000, guid: f2f00ea915499274d8147de601002ad3, type: 3}
   nextRoot: {fileID: 1018164460}
-  completionSound: /SFX/Story/Friendship/Friends3
+  completionSound: /SFX/Story/Friendships/Friends3
   sourceRoot: 0
 --- !u!212 &1890643263
 SpriteRenderer:
@@ -3723,7 +3706,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1269032791}
   district: {fileID: 159353323}
-  _vignetteSprite: {fileID: 21300000, guid: 8f29925b14fcab74daa4e09e5b976dcc, type: 3}
   _vignetteText: {fileID: 4900000, guid: e0cbc80bfff0f5e468161bd2ac304e32, type: 3}
   nextRoot: {fileID: 636027792}
   completionSound: /SFX/Story/Family/Family2
