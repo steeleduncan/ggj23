@@ -182,12 +182,16 @@ public class Manager : MonoBehaviour {
 		vignetteSprite.sprite = picture;
 	}
 
-	public void PlayStorm() {
-        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Storm");
+	public void Play(string key) {
+		if (key == "") {
+			return;
+		}
+
+        FMODUnity.RuntimeManager.PlayOneShot("event:" + key);
 	}	
 
-	public void PlayRoots() {
-        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Roots");
+	public void PlayStorm() {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Storm");
 	}	
 
 	public void StartAmbience() {

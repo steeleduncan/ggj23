@@ -9,6 +9,8 @@ public class Root : MonoBehaviour {
 	public TextAsset _vignetteText;
 	public Root nextRoot;
 
+	public string completionSound;
+
 	private SpriteRenderer _spriteRenderer;
 	private Vector3 _originalScale;
 	private int _stage;
@@ -74,7 +76,7 @@ public class Root : MonoBehaviour {
 			if (nextRoot == null) {
 				district.complete = true;
 			}
-			manager.PlayRoots();
+			manager.Play(completionSound);
 			manager.ShowTextAndSprite(_vignetteString, _vignetteSprite, _popoverDidReturn);
 			manager.DidAdvanceDay();
 

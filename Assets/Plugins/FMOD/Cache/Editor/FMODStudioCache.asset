@@ -27,6 +27,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 262397
+--- !u!114 &-8761002633737672171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Love/Love4
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Love/Love4
+  Guid:
+    Data1: 1456376650
+    Data2: 1315238027
+    Data3: 1628694940
+    Data4: 2120330995
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-8441290377250509405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54,6 +81,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1782
+--- !u!114 &-8115252512788159545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Family/Family1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Family/Family1
+  Guid:
+    Data1: -1114239345
+    Data2: 1082608636
+    Data3: 1096251012
+    Data4: 1289093993
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-6531090729903070738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,6 +136,141 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 100
+--- !u!114 &-6367773477979775192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Friendships/Friends1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Friendships/Friends1
+  Guid:
+    Data1: -1552385457
+    Data2: 1221536618
+    Data3: -1744850755
+    Data4: 482806549
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-6307348531006918813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Love/Love2
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Love/Love2
+  Guid:
+    Data1: -2023793747
+    Data2: 1107340482
+    Data3: -2128187748
+    Data4: -441749265
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-6140551690032156030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Family/FamilyEnd
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Family/FamilyEnd
+  Guid:
+    Data1: -1443512300
+    Data2: 1152299943
+    Data3: -482058845
+    Data4: -1383159333
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 699
+--- !u!114 &-5119090798317894357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Career/Career2
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Career/Career2
+  Guid:
+    Data1: 523488032
+    Data2: 1080942001
+    Data3: -1652660839
+    Data4: -1753032106
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-4699468493633605084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Popup
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Popup
+  Guid:
+    Data1: 1956042716
+    Data2: 1162276211
+    Data3: 2136141441
+    Data4: -698913779
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 250
 --- !u!114 &-2051322881364299994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,13 +315,115 @@ MonoBehaviour:
   - {fileID: -6531090729903070738}
   - {fileID: 1066185316646585493}
   - {fileID: -8441290377250509405}
+  - {fileID: 5482200598536590659}
+  - {fileID: -6140551690032156030}
+  - {fileID: -5119090798317894357}
+  - {fileID: 2132282770262877908}
+  - {fileID: 361208505814605037}
+  - {fileID: 7861830117761939640}
+  - {fileID: -8761002633737672171}
+  - {fileID: -6367773477979775192}
+  - {fileID: 2623048723363578804}
+  - {fileID: 1625594597430045321}
+  - {fileID: 4857900877078965682}
+  - {fileID: -8115252512788159545}
+  - {fileID: 325994143837091509}
+  - {fileID: 6075089482576089283}
+  - {fileID: 4927204351020343}
+  - {fileID: -6307348531006918813}
+  - {fileID: 2377300773367118168}
+  - {fileID: 4625771869173351627}
+  - {fileID: -4699468493633605084}
+  - {fileID: 1876347652095658133}
+  - {fileID: 1392658897039894866}
   EditorParameters: []
   MasterBanks:
   - {fileID: 606667162245309083}
   StringsBanks:
   - {fileID: 6237455071763071235}
-  cacheTime: 638111270607082284
+  cacheTime: 638111991576939726
   cacheVersion: 131601
+--- !u!114 &4927204351020343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Family/Family4
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Family/Family4
+  Guid:
+    Data1: -941688924
+    Data2: 1140929205
+    Data3: 678968214
+    Data4: -1046759832
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &325994143837091509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Career/Career3
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Career/Career3
+  Guid:
+    Data1: -434859114
+    Data2: 1075259558
+    Data3: 1089048503
+    Data4: 2004222467
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &361208505814605037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Career/Career1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Career/Career1
+  Guid:
+    Data1: 247707440
+    Data2: 1198986965
+    Data3: 464602266
+    Data4: -274401213
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &606667162245309083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,7 +439,7 @@ MonoBehaviour:
   Path: Assets/Fmod/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638111270607082284
+  lastModified: 638111991576929925
   FileSizes: []
   Exists: 1
 --- !u!114 &1066185316646585493
@@ -177,7 +468,277 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 625
+  Length: 550
+--- !u!114 &1392658897039894866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Love/LoveEnd
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Love/LoveEnd
+  Guid:
+    Data1: 969093104
+    Data2: 1169471273
+    Data3: -451839615
+    Data4: -1247581186
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2600
+--- !u!114 &1625594597430045321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Career/CareerEnd
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Career/CareerEnd
+  Guid:
+    Data1: -132870041
+    Data2: 1189332322
+    Data3: -2021805122
+    Data4: -393505233
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2245
+--- !u!114 &1876347652095658133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Career/Career4
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Career/Career4
+  Guid:
+    Data1: -388140306
+    Data2: 1088924827
+    Data3: 1370812808
+    Data4: 319581873
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &2132282770262877908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Family/Family2
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Family/Family2
+  Guid:
+    Data1: 1281461293
+    Data2: 1128372787
+    Data3: -425011565
+    Data4: -894238769
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3199
+--- !u!114 &2377300773367118168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Family/Family3
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Family/Family3
+  Guid:
+    Data1: -821412682
+    Data2: 1335206927
+    Data3: -1814655079
+    Data4: 398337435
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &2623048723363578804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Friendships/FriendsEnd
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Friendships/FriendsEnd
+  Guid:
+    Data1: -64102574
+    Data2: 1216308753
+    Data3: -890067822
+    Data4: 192407219
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 699
+--- !u!114 &4625771869173351627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Love/Love1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Love/Love1
+  Guid:
+    Data1: -23333930
+    Data2: 1334130470
+    Data3: 1296984726
+    Data4: -1762865502
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &4857900877078965682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Love/Love3
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Love/Love3
+  Guid:
+    Data1: 1068473713
+    Data2: 1162470345
+    Data3: 1133543082
+    Data4: -1554249609
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &5482200598536590659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Friendships/Friends4
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Friendships/Friends4
+  Guid:
+    Data1: -296911859
+    Data2: 1295253242
+    Data3: 986961312
+    Data4: 1976040611
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &6075089482576089283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Friendships/Friends2
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Friendships/Friends2
+  Guid:
+    Data1: -42380133
+    Data2: 1309428941
+    Data3: -1361340253
+    Data4: -1247767370
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &6237455071763071235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,8 +754,35 @@ MonoBehaviour:
   Path: Assets/Fmod/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638111270607082284
+  lastModified: 638111991576939726
   FileSizes:
   - Name: 
-    Value: 1148
+    Value: 1784
   Exists: 1
+--- !u!114 &7861830117761939640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Story/Friendships/Friends3
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Story/Friendships/Friends3
+  Guid:
+    Data1: -978894023
+    Data2: 1268007124
+    Data3: 906639495
+    Data4: -727487447
+  Banks:
+  - {fileID: 606667162245309083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3699

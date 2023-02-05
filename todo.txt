@@ -1,14 +1,7 @@
+- sounds
+	- 
 - viewport fix
-
-- notes
-	- A : light brown : career
-	- B : pink        : family
-	- C : blue        : friendship
-	- D : dark brown  : love
-
-- required copy
-	- name
-	- text for itch page
+- change title?
 
 - put in some transparent frames for the unused images
 - how does everyone want to be credited?
@@ -43,3 +36,10 @@
 
 - hopefuls
 	- settings
+
+- notes
+	- A : light brown : career
+	- B : pink        : family
+	- C : blue        : friendship
+	- D : dark brown  : love
+
